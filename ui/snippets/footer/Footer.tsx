@@ -86,6 +86,7 @@ const Footer = () => {
   }, []);
 
   const renderProjectInfo = React.useCallback((gridArea?: GridProps['gridArea']) => {
+    
     return (
       <Box gridArea={ gridArea }>
         <Text mt={ 3 } fontSize="xs">
